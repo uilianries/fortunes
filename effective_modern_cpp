@@ -1,0 +1,119 @@
+auto type dedution
+Prefer auto to explicit type declarations
+ --Effective Modern C++, Meyes S.
+%
+auto type dedution
+Use the explicitly typed initializer idiom when auto deduces undesired types.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Prefer nullptr to 0 and NULL.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Prefer alias declarations to typedefs.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Prefer scoped enums to unscoped enums.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Prefer deleted functions to private undefined ones.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Declare overriding functions override.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Prefer const_iterators to iterators.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Declare functions noexcept if they won’t emit exceptions.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Use constexpr whenever possible.
+ --Effective Modern C++, Meyes S.
+%
+Moving to Modern C++
+Make const member functions thread safe.
+ --Effective Modern C++, Meyes S.
+%
+Smart Pointers
+Use std::unique_ptr for exclusive-ownership resource management.
+ --Effective Modern C++, Meyes S.
+%
+Smart Pointers
+Use std::shared_ptr for shared-ownership resource management.
+ --Effective Modern C++, Meyes S.
+%
+Smart Pointers
+Use std::weak_ptr for std::shared_ptr-like pointers that can dangle.
+ --Effective Modern C++, Meyes S.
+%
+Smart Pointers
+Prefer std::make_unique and std::make_shared to direct use of new.
+ --Effective Modern C++, Meyes S.
+%
+Rvalue References, Move Semantics, and Perfect Forwarding
+Use std::move on rvalue references, std::forward on universal references.
+ --Effective Modern C++, Meyes S.
+% 
+Rvalue References, Move Semantics, and Perfect Forwarding
+Avoid overloading on universal references.
+ --Effective Modern C++, Meyes S.
+% 
+Rvalue References, Move Semantics, and Perfect Forwarding
+Assume that move operations are not present, not cheap, and not used.
+ --Effective Modern C++, Meyes S.
+% 
+Lambda Expressions
+Avoid default capture modes.
+ --Effective Modern C++, Meyes S.
+%
+Lambda Expressions
+Use init capture to move objects into closures.
+ --Effective Modern C++, Meyes S.
+%
+Lambda Expressions
+Use decltype on auto&& parameters to std::forward them.
+ --Effective Modern C++, Meyes S.
+%
+Lambda Expressions
+Prefer lambdas to std::bind.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Prefer task-based programming to thread-based.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Specify std::launch::async if asynchronicity is essential.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Make std::threads unjoinable on all paths.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Be aware of varying thread handle destructor behavior.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Consider void futures for one-shot event communication.
+ --Effective Modern C++, Meyes S.
+%
+The Concurrency API
+Use std::atomic for concurrency, volatile for special memory.
+ --Effective Modern C++, Meyes S.
+%
+Tweaks
+Consider pass by value for copyable parameters that are cheap to move and always copied.
+ --Effective Modern C++, Meyes S.
+%
+Tweaks
+Consider emplacement instead of insertion.
+ --Effective Modern C++, Meyes S.
