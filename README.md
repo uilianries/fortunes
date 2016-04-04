@@ -2,7 +2,8 @@
 Fortune Custom Files
 
 # Install
-Move all files to /usr/share/games/fortunes
+Run install.sh
+- Super User previllegies are required to copy files
 
 #Run
 $ fortune <fortunes-file>

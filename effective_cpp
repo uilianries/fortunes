@@ -1,0 +1,219 @@
+Accustoming yourself to C++
+View C++ as a federation of languages.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Accustoming yourself to C++
+Prefer const s, enum s, and inline s to #define s.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Accustoming yourself to C++
+Use const whenever possible.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Accustoming yourself to C++
+Make sure that objects are initialized before they’re used.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Know what functions C++ silently writes and calls.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Explicitly disallow the use of compiler-generated functions you do not want.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Declare destructors virtual in polymorphic base classes.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Prevent exceptions from leaving destructors.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Never call virtual functions during construction or destruction.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Have assignment operators return a reference to *this .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Handle assignment to self in operator= .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Constructors, Destructors, and Assignment Operators
+Copy all parts of an object.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Use objects to manage resources.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Think carefully about copying behavior in resource-managing classes.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Provide access to raw resources in resource-managing classes.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Use the same form in corresponding uses of new and delete .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Store new ed objects in smart pointers in standalone statements.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Make interfaces easy to use correctly and hard to use incorrectly.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Treat class design as type design.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Prefer pass-by-reference-to- const to pass-by-value.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Don’t try to return a reference when you must return an object.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Declare data members private .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Prefer non-member non-friend functions to member functions.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Declare non-member functions when type conversions should apply to all parameters.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Resource Management
+Consider support for a non-throwing swap .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Postpone variable definitions as long as possible.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Minimize casting.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Avoid returning “handles” to object internals.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Strive for exception-safe code.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Understand the ins and outs of inlining.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Implementations
+Minimize compilation dependencies between files.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Make sure public inheritance models “is-a.”
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Avoid hiding inherited names.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Differentiate between inheritance of interface and inheritance of implementation.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Consider alternatives to virtual functions.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Never redefine an inherited non-virtual function.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Never redefine a function’s inherited default parameter value.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Model “has-a” or “is-implemented-in-terms-of” through composition.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Use private inheritance judiciously.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Inheritance and Object-Oriented Design
+Use multiple inheritance judiciously.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Understand implicit interfaces and compile-time polymorphism.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Understand the two meanings of typename .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Know how to access names in templatized base classes.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Factor parameter-independent code out of templates.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Use member function templates to accept “all compatible types.”
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Define non-member functions inside templates when type conversions are desired.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Use traits classes for information about types.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Templates and Generic Programming
+Be aware of template metaprogramming.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Customizing new and delete
+Understand the behavior of the new-handler.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Customizing new and delete
+Understand when it makes sense to replace new and delete .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Customizing new and delete
+Adhere to convention when writing new and delete .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Customizing new and delete
+Write placement delete if you write placement new .
+ --Effective C++ 3rd edition, Meyers S.
+%
+Miscellany
+Pay attention to compiler warnings.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Miscellany
+Familiarize yourself with the standard library, including TR1.
+ --Effective C++ 3rd edition, Meyers S.
+%
+Miscellany
+Familiarize yourself with Boost.
+ --Effective C++ 3rd edition, Meyers S.
