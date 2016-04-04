@@ -1,0 +1,195 @@
+Containers
+Choose your containers with care.
+ --Effective STL, Meyers S.
+%
+Containers
+Beware the illusion of container-independent code.
+ --Effective STL, Meyers S.
+%
+Containers
+Make copying cheap and correct for objects in containers.
+ --Effective STL, Meyers S.
+%
+Containers
+Call empty instead of checking size() against zero.
+ --Effective STL, Meyers S.
+%
+Containers
+Prefer range member functions to their single-element counterparts.
+ --Effective STL, Meyers S.
+%
+Containers
+Be alert for C++’s most vexing parse.
+ --Effective STL, Meyers S.
+%
+Containers
+When using containers of new ed pointers, remember to delete the pointers before the container is destroyed.
+ --Effective STL, Meyers S.
+%
+Containers
+Never create containers of auto_ptr s.
+ --Effective STL, Meyers S.
+%
+Containers
+Choose carefully among erasing options.
+ --Effective STL, Meyers S.
+%
+Containers
+Be aware of allocator conventions and restrictions.
+ --Effective STL, Meyers S.
+%
+Containers
+Understand the legitimate uses of custom allocators.
+ --Effective STL, Meyers S.
+%
+Containers
+Have realistic expectations about the thread safety of STL containers.
+ --Effective STL, Meyers S.
+%
+vector and string
+Prefer vector and string to dynamically allocated arrays.
+ --Effective STL, Meyers S.
+%
+vector and string
+Use reserve to avoid unnecessary reallocations.
+ --Effective STL, Meyers S.
+%
+vector and string
+Be aware of variations in string implementations.
+ --Effective STL, Meyers S.
+%
+vector and string
+Know how to pass vector and string data to legacy APIs.
+ --Effective STL, Meyers S.
+%
+vector and string
+Use “the swap trick” to trim excess capacity.
+ --Effective STL, Meyers S.
+%
+vector and string
+Avoid using vector<bool> .
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Understand the difference between equality and equivalence.
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Specify comparison types for associative containers of pointers.
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Always have comparison functions return false for equal values.
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Avoid in-place key modification in set and multiset .
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Consider replacing associative containers with sorted vector s.
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Choose carefully between map::operator[] and map::insert when efficiency is important.
+ --Effective STL, Meyers S.
+%
+Associative Containers
+Familiarize yourself with the nonstandard hashed containers.
+ --Effective STL, Meyers S.
+%
+Iterators
+Prefer iterator to const_iterator , reverse_iterator , and const_reverse_iterator .
+ --Effective STL, Meyers S.
+%
+Iterators
+Use distance and advance to convert a container’s const_iterator s to iterator s.
+ --Effective STL, Meyers S.
+%
+Iterators
+Understand how to use a reverse_iterator ’s base iterator .
+ --Effective STL, Meyers S.
+%
+Iterators
+Consider istreambuf_iterator s for character-by-character input.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Make sure destination ranges are big enough.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Know your sorting options.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Follow remove -like algorithms by erase if you really want to remove something.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Be wary of remove -like algorithms on containers of pointers.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Note which algorithms expect sorted ranges.
+ --Effective STL, Meyers S.
+%
+Algorithms
+Implement simple case-insensitive string comparisons via mismatch or lexicographical_compare .
+ --Effective STL, Meyers S.
+%
+Algorithms
+Understand the proper implementation of copy_if .
+ --Effective STL, Meyers S.
+%
+Functors, Functor Classes, Functions, etc.
+Design functor classes for pass-by-value.
+ --Effective STL, Meyers S.
+%
+Functors, Functor Classes, Functions, etc.
+Make predicates pure functions.
+ --Effective STL, Meyers S.
+%
+Functors, Functor Classes, Functions, etc.
+Make functor classes adaptable.
+ --Effective STL, Meyers S.
+%
+Functors, Functor Classes, Functions, etc.
+Understand the reasons for ptr_fun , mem_fun , and mem_fun_ref .
+ --Effective STL, Meyers S.
+%
+Functors, Functor Classes, Functions, etc.
+Make sure less<T> means operator< .
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Prefer algorithm calls to hand-written loops.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Prefer member functions to algorithms with the name names.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Distinguish among count , find , binary_search , lower_bound , upper_bound , and equal_range .
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Consider function objects instead of functions as algorithm parameters.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Avoid producing write-only code.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Always #include the proper headers.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Learn to decipher STL-related compiler diagnostics.
+ --Effective STL, Meyers S.
+%
+Programming with the STL
+Familiarize yourself with STL-related web sites.
+ --Effective STL, Meyers S.

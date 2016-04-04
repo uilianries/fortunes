@@ -1,6 +1,6 @@
 #!/bin/bash
 
-fortunes="effective_modern_cpp effective_cpp the_pragmatic_programmer"
+fortunes="effective_modern_cpp effective_cpp effective_stl the_pragmatic_programmer"
 
 for it in $fortunes
 do
@@ -9,4 +9,4 @@ do
   sudo cp $it.dat /usr/share/games/fortunes
 done
 
-echo 'fortune the_pragmatic_programmer effective_modern_cpp effective_cpp' >> ~/.bashrc
+echo "fortune $fortunes" >> ~/.bashrc
